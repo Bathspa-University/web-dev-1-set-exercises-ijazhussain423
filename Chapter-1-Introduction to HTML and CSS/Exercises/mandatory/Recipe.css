@@ -1,0 +1,118 @@
+/* Recipe.css */
+
+
+
+
+/* Resetting default margin and padding */
+body, h1, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(203, 147, 181);
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Recipe image styling */
+  img {
+    width: 400px;
+    height: 400px; /* Adjust height as needed */
+    padding: 10px;
+    margin: auto; 
+  }
+  
+  /* Recipe information styling */
+  .recipe-information {
+    margin-top: 20px;
+  }
+  
+  /* Recipe title styling */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Description styling */
+  .description-of-the-recipe {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Ingredients styling */
+  .ingredients-section {
+    margin-bottom: 20px;
+  }
+  
+  .ingredients-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ingredients-section ul {
+    list-style-type: none;
+  }
+  
+  .ingredients-section li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  /* Method styling */
+  .method-section {
+    margin-bottom: 20px;
+  }
+  
+  .method-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .method-section ol {
+    list-style-type: decimal;
+  }
+  
+  .method-section li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.information for recipe{
+    list-style: none;
+}
+img{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+}
+.background-image{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+
+}/*

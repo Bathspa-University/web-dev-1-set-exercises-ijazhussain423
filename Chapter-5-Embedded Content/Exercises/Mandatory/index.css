@@ -1,0 +1,16 @@
+style
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    
+    video {
+      max-width: 21%; /* Change this value to adjust the width */
+      display: block;
+      margin: auto;
+    }
+  

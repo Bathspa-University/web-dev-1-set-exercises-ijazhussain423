@@ -1,0 +1,19 @@
+.body{
+display: flex;
+}
+
+
+
+
+
+.image-wrapper {
+  display: flex;
+}
+
+.image-container {
+  margin-right: 0;
+}
+
+img {
+  filter: grayscale(50%);
+}

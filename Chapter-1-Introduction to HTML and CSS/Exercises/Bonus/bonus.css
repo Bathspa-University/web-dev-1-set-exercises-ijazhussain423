@@ -1,0 +1,26 @@
+css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #90c3ae;
+    padding: 20px;
+}
+
+header, footer, section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #efbcbc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+code, pre {
+    font-family: Consolas, monospace;
+    background-color: #a8a1cf;
+    padding: 5px;
+    border-radius: 3px;
+}

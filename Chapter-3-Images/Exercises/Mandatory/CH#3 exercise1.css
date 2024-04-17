@@ -1,19 +1,61 @@
-.body{
-display: flex;
+/* For the body of the webpage */
+body{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  background-image: linear-gradient(to right, pink,rgb(170, 245, 255) );
 }
 
+/* Styling heading 1 */
+h1{
+  text-align: center;
+  font-weight: 120px;
+  font-family:'Times New Roman', Times, serif
+}
 
+/* class Text */
+.Text{
+  font-size: 14px;
+  text-align: center;
+}
 
-
-
-.image-wrapper {
+/* class image-container */
+.image-container-1 {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
 }
 
-.image-container {
-  margin-right: 0;
+
+
+/* Styling img1 */
+.img1{
+  align-items: center;
+  filter: blur(2px);  /*filter blur*/
+  transition: filter 0.3s ease;
+  border-radius: 20px;
+  border: solid white 5px;
+
 }
 
-img {
-  filter: grayscale(50%);
+/* Styling img2 */
+.img2{
+  filter: sepia(100%);  /*filter sepia*/
+  transition: filter 0.3s ease;
+  border-radius: 20px;
+  border: solid white 5px;
+}
+
+/* Styling img3 */
+.img3{
+  filter: hue-rotate(90deg);  /*filter hue-rotation*/
+  transition: filter 0.3s ease;
+  border-radius: 20px;
+  border: solid white 5px;
+}
+
+/* Image filter none for image-container-1 when the user hover */
+.image-container-1 img:hover {
+      filter: none;
 }

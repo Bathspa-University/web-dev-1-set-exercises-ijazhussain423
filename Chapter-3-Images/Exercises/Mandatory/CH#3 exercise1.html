@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Gallery</title>
-  <link rel="stylesheet" href="CH#3 exercise1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="CH#3 exercise1.css">
 </head>
+<!-- Chapter 3 mandatory -->
 <body>
-  <div class="image-wrapper">
-    <div class="image-container">
-      <img src="FLOWER1.PNG" alt="white flower in white blur background" title="white flower" width="300" height="200">
-      <p class="copyright">Image 1 Adelina Zw | License: This picture is licensed<br /> because this is taken from pixabay</p>
+    <!-- Heading 1 centerly aligned -->
+    <h1 style="text-align: center;">
+        Flowers
+    </h1>
+
+    <!-- Main div -->
+    <div class="image-container-1">
+        <!-- Sub div to include image 1 -->
+        <div>
+            <!-- Image 1 having alt atribute as white flower in white blur-->
+            <img src="FLOWER1.PNG" alt="white flower in white blur background" title="white flower" width="400" height="300" class="img1">
+           
+                <h2 class="Text">
+                      white blur was taken by AdelinaZw
+                </h2>
+        </div>
+ 
+        <!-- Sub div to include image 2 -->
+        <div>
+            <!-- Image 2 having alt atribute as picture of flowers-->
+            <img src="FLOWER2.PNG" alt="Green plants" width="400" height="300" class="img2">
+            <div class="2image-container">
+              
+            </div>
+                <h2 class="Text">
+                    green plants picture was taken by thomson
+                </h2>
+        </div>
+
+        <!-- Sub div to include image 3 -->
+        <div>
+            <!-- Image 3 having alt atribute as flower in white and red colour-->
+            <img src="flower3.PNG" alt="flower in white and red colour" width="400" height="300" class="img3">
+      <p class="copyright">
+                <h2 class="Text">
+                    this image with light green background taken by juli
+                </h2>
+        </div>
+    </div>    
     </div>
-    <div class="image-container">
-      <img src="FLOWER2.PNG" alt="Green plants " title="picture of flowers " width="300" height="200">
-      <p class="copyright">Image 2  this picture is taken from Pixabay | License: <br /> This picture is licensed because this is taken from Pixabay.</p>
-    </div>
-    <div class="image-container">
-      <img src="flower3.PNG" alt="flower in light green background" title="Flower in picture" width="300" height="200">
-      <p class="copyright">Image 3 this picture is from pixabay | License: This picture is licensed because this<br /> is taken from pixabay </p>
-    </div>
-  </div>
+
+    <!-- <p>
+        Note all images are taken from <a href="https://pixabay.com/"></a>
+    </p> -->
 </body>
 </html>

@@ -3,7 +3,7 @@ body{
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 50px;
-  background-image: linear-gradient(to right, pink,rgb(170, 245, 255) );
+  background-image: linear-gradient(to right, rgb(139, 115, 120),rgb(190, 236, 242) );
 }
 
 /* Styling heading 1 */
@@ -36,6 +36,7 @@ h1{
   transition: filter 0.3s ease;
   border-radius: 20px;
   border: solid white 5px;
+  
 
 }
 

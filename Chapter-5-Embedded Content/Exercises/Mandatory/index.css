@@ -1,4 +1,44 @@
-style
+/* Body of css */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to right, rgb(0, 0, 0),rgb(211, 211, 211) );
+}
+
+/* setting videos width and height */
+video{
+  max-width: 70%;
+  max-height: 69%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style
     body, html {
       height: 100%;
       margin: 0;
@@ -10,7 +50,6 @@ style
     
     video {
       max-width: 21%; /* Change this value to adjust the width */
-      display: block;
-      margin: auto;
-    }
+      /*display: block;
+      margin: auto;}/*
   
